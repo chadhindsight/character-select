@@ -3,6 +3,7 @@ import Modal from 'react-modal';
 
 const ModalCharacter = () => (
     <Modal
+    // modal related props
     isOpen={}
         onRequestClose={}
         contentLabel="Selected Character">
