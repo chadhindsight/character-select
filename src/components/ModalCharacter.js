@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
 
-const ModalCharacter = () => (
+const ModalCharacter = (props) => (
     <Modal
     // modal related props
     isOpen={}
