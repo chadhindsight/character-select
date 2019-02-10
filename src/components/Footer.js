@@ -1,7 +1,7 @@
 import React from 'react';
  const Footer = () => (
      <div>
-         <footer>
+         <footer className="">
              <ul>
                  <li><a>About us</a></li>
                  <li><a>Blog</a></li>
@@ -9,7 +9,7 @@ import React from 'react';
                  <li><a>iOS App</a></li>
                  <li><a>Android App</a></li>
              </ul>
-             <p>Copyrighted By BOOTY INC 2018</p>
+             <p>Copyrighted By BOOTY INC 2019</p>
          </footer>
      </div>
  )
