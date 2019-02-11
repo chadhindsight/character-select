@@ -8,7 +8,7 @@ class CardsContainer extends Component {
     // The container for the individual character cards
     render() {
         return (
-            <div>
+            <div className="">
 
             </div>
         )
