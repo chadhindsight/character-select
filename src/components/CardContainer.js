@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import CharacterCard from './CharacerCard.js';
+
+characters= [];
 
 class CardsContainer extends Component {
     constructor(props) {

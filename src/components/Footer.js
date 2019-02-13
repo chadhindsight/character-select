@@ -9,7 +9,7 @@ import React from 'react';
                  <li><a>iOS App</a></li>
                  <li><a>Android App</a></li>
              </ul>
-             <p>Copyrighted By BOOTY INC 2019</p>
+             <p>Copyright By BOOTY INC 2019</p>
          </footer>
      </div>
  )
