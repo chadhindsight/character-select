@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Character Select Screen
+ Choose your fighter!
+ 
 # The rundown
 Inspired by the classic character select screens from arcade games, this app allows the user to mouse over and click on a character.
 
