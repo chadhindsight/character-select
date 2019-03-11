@@ -2,7 +2,7 @@ import React from 'react';
 
 const CharacterCard = (props) => (
     // Individual Character 
-    <div>
+    <div className="">
         <h2>{}</h2>
         <p>{}</p>
         <p>{}</p>

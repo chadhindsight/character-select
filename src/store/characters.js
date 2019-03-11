@@ -6,7 +6,7 @@ export const characters = [
         selected: false
     },
     {
-        name: '',
+        name: 'Ashley',
         power: 353,
         age: 30,
         selected: false
