@@ -1,7 +1,6 @@
 import React, { Component} from 'react';
-import CharacterCard from './CharacerCard.js';
+import { connect } from 'react-redux'; 
 
-characters= [];
 
 class CardsContainer extends Component {
     constructor(props) {
@@ -17,9 +16,10 @@ class CardsContainer extends Component {
         )
     }
 }
+
 export default CardsContainer;
 
 // Info for different characters will be stored in an array
 // From there you can import Character card component and pass info in to them as props
-// For each character in the array render a related Character card component with method
+// For each character in the array render a related Character picture 
 
