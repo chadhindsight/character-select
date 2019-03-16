@@ -1,20 +1,25 @@
 import React, { Component} from 'react';
 import { connect } from 'react-redux'; 
-
+import CharacterCard from './CharacerCard';
+import ModalCharacter from './ModalCharacter';
 
 class CardsContainer extends Component {
     constructor(props) {
         super(props)
     }
 
-    // The container for the individual character cards
     render() {
         return (
             <div className="">
-                dummy text
+                
             </div>
         )
     }
+}
+
+const mapStateToProps = () => {
+    // Access to the array characters
+
 }
 
 export default CardsContainer;
