@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux'; 
 
 const CharacterCard = (props) => (
     // Individual Character 
@@ -8,4 +9,10 @@ const CharacterCard = (props) => (
         <p>{}</p>
     </div>
 )
-export default CharacterCard
+
+const mapStateToProps = () => {
+    // Access to the redux array characters
+    
+}
+
+export default connect(mapStateToProps) (CharacterCard);
