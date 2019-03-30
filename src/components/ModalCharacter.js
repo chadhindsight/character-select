@@ -6,7 +6,7 @@ import CharacterCard from './CharacerCard';
 const ModalCharacter = (props) => (
     <Modal
     // modal related props
-    isOpen={}
+    isOpen={false}
         onRequestClose={}
         contentLabel="Selected Character">
 
