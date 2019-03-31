@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
 import CharacterCard from './CharacerCard';
-
+import { connect } from 'react-redux'
 // This should pop when a character frame is clicked  and display user's choice 
 class ModalCharacter extends React.Component{
     constructor() {
@@ -26,5 +26,9 @@ class ModalCharacter extends React.Component{
         )
     }
 }
+
+const mapStatetoProps = state = () =>{
     
-export default ModalCharacter;
+}
+    
+export default connect(mapStatetoProps)(ModalCharacter);

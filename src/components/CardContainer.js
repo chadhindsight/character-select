@@ -2,6 +2,7 @@ import React, { Component} from 'react';
 import { connect } from 'react-redux'; 
 import CharacterCard from './CharacerCard';
 import ModalCharacter from './ModalCharacter';
+import { characters } from '../store/characters';
 
 class CardsContainer extends Component {
     constructor(props) {
@@ -10,22 +11,23 @@ class CardsContainer extends Component {
 
     render() {
         return (
-            <div className="">
+            <div>
                 
             </div>
         )
     }
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
     // Access to the different pics of characters
-    
+    return {
+        characters: state.characters
+    }
 
 }
 
 export default connect(mapStateToProps)(CardsContainer);
 
 // Info for different characters will be stored in an array
-// From there you can import Character card component and pass info in to them as props
 // For each character in the array render a related Character picture 
 
