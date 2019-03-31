@@ -17,12 +17,13 @@ class CardsContainer extends Component {
     }
 }
 
-const mapStateToProps = () => {
-    // Access to the array characters
+const mapStateToProps = (state) => {
+    // Access to the different pics of characters
+    
 
 }
 
-export default CardsContainer;
+export default connect(mapStateToProps)(CardsContainer);
 
 // Info for different characters will be stored in an array
 // From there you can import Character card component and pass info in to them as props
