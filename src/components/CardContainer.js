@@ -8,7 +8,10 @@ class CardsContainer extends Component {
     constructor(props) {
         super(props)
     }
-
+    // Make picture list with .map. After doing this, delete this comment
+    renderList() {
+        
+    }
     render() {
         return (
             <div>
