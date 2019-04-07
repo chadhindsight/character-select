@@ -5,7 +5,7 @@ export const characters = [
         age: 45,
         id: 0,
         selected: false,
-        img: ''
+        img: './images/cat-girl.png'
     },
     {
         name: 'Ashley',
@@ -13,7 +13,7 @@ export const characters = [
         age: 19,
         id: 1,
         selected: false,
-        img: ''
+        img: './images/char-pink-girl.png'
     },
     {
         name: 'Devin',
@@ -21,7 +21,7 @@ export const characters = [
         age: 30,
         id: 2,
         selected: false,
-        img: ''
+        img: './images/boy.png'
     },
     {
         name: 'Sorya',
@@ -29,7 +29,7 @@ export const characters = [
         age: 25,
         id: 3,
         selected: false,
-        img: ''
+        img: './images/horn-girl.png'
     },
     {
         name: 'Norin',
@@ -37,6 +37,6 @@ export const characters = [
         age: 28,
         id: 4,
         selected: false,
-        img: ''
+        img: './images/princess-girl.png'
     }
 ] 
