@@ -12,3 +12,4 @@ class App extends Component {
 }
 
 export default App;
+// don'r forget to add setup for redux later 
