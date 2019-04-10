@@ -1,7 +1,7 @@
 export const characters = [
     {
         name: 'Mr Unkown',
-        power: 505,
+        power: 507,
         age: 45,
         id: 0,
         selected: false,
