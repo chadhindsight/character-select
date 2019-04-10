@@ -10,7 +10,7 @@ export const characters = [
     {
         name: 'Ashley',
         power: 353,
-        age: 19,
+        age: 18,
         id: 1,
         selected: false,
         img: './images/char-pink-girl.png'
