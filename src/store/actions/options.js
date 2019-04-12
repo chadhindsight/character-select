@@ -2,7 +2,9 @@
 const selectCharacter = () => (
     {
         type: 'SELECT_CHARACTER',
+        payload: character
+
         
     }
 )
-// Confirm selection
+// Confirm selection -Maybe not needed

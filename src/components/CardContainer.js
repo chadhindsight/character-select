@@ -21,6 +21,7 @@ class CardsContainer extends Component {
     render() {
         return (
             <div>
+                <h1>Choose Your Fighter!</h1>
                 <ul>{this.renderList()}</ul>
             </div>
         )
@@ -33,6 +34,13 @@ const mapStateToProps = (state) => {
         characters: state.characters
     }
 
+}
+
+const mapDispatchToProps = dispatch => {
+    return {
+        selectCharacter: character => dispatch(selectCharacter) 
+
+    }
 }
 
 export default connect(mapStateToProps)(CardsContainer);
