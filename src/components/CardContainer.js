@@ -13,7 +13,6 @@ class CardsContainer extends Component {
         this.props.characters.map( char => {
             return (
                 <li>
-                    <h2>{char.name}</h2>
                     <img src={char.img}/> 
                 </li>
             )
