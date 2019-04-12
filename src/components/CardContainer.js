@@ -10,7 +10,9 @@ class CardsContainer extends Component {
     }
     // Make picture list with .map. After doing this, delete this comment
     renderList() {
-        
+        return this.props.characters.map( char =>{
+            
+        })
     }
     render() {
         return (
