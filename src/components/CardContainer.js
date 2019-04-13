@@ -21,7 +21,7 @@ class CardsContainer extends Component {
     render() {
         return (
             <div>
-                <h1>Choose Your Fighter!</h1>
+                <h1>Choose Your Fighter</h1>
                 <ul>{this.renderList()}</ul>
             </div>
         )
