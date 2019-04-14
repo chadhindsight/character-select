@@ -8,6 +8,7 @@ class CardsContainer extends Component {
     constructor(props) {
         super(props)
     }
+    // So damn long!
     // Make picture list with .map. After doing this, delete this comment
     renderList() {
         this.props.characters.map( char => {
@@ -21,7 +22,7 @@ class CardsContainer extends Component {
     render() {
         return (
             <div>
-                <h1>Choose Your Fighter</h1>
+                <h1>Choose Your Fighter!</h1>
                 <ul>{this.renderList()}</ul>
             </div>
         )
