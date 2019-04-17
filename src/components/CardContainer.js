@@ -29,7 +29,7 @@ class CardsContainer extends Component {
     }
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
     // Access to the different pics of characters
     return {
         characters: state.characters
