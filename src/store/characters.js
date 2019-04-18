@@ -9,7 +9,7 @@ export const characters = [
     },
     {
         name: 'Ashley',
-        power: 363,
+        power: 353,
         age: 18,
         id: 1,
         selected: false,
