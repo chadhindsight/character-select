@@ -7,6 +7,7 @@ export const characters = [
         selected: false,
         img: './images/cat-girl.png'
     },
+    // it is lit
     {
         name: 'Ashley',
         power: 353,
