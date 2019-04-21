@@ -1,7 +1,7 @@
 // reducer
 export default (state, action) => {
-    switch () {
-        case value:
+    switch (action.type) {
+        case 'SELECT_CHARACTER':
             
             break;
     
