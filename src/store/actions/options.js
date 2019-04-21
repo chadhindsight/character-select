@@ -1,5 +1,5 @@
 // Action for Select character
-const selectCharacter = () => (
+const selectCharacter = (character) => (
     {
         type: 'SELECT_CHARACTER',
         payload: character
