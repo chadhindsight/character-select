@@ -1,7 +1,5 @@
 import React, { Component} from 'react';
 import { connect } from 'react-redux'; 
-import CharacterCard from './CharacerCard';
-import ModalCharacter from './ModalCharacter';
 import { characters } from '../store/characters';
 
 class CardsContainer extends Component {
