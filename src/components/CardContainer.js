@@ -8,7 +8,6 @@ class CardsContainer extends Component {
     constructor(props) {
         super(props)
     }
-    // So damn long!
     // Make picture list with .map. After doing this, delete this comment
     renderList() {
         this.props.characters.map( char => {
@@ -44,7 +43,7 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(mapStateToProps)(CardsContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(CardsContainer);
 
 // Info for different characters will be stored in an array
 // For each character in the array render a related Character picture 
