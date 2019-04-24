@@ -12,4 +12,4 @@ ReactDOM.render(
         <App />
     </Provider>, 
     document.getElementById('root'))
-// don't forget to add the Provider for redux later. Good to go!
+// don't forget to add the Provider for redux later.
