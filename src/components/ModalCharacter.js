@@ -20,13 +20,12 @@ class ModalCharacter extends React.Component{
                 <Modal
                     isOpen={this.state.showModal}
                     contentLabel={Character}>
-                    <CharacterCard />
                 </Modal>
             </div>
         )
     }
 }
-
+// Sort this out!
 const mapStatetoProps = state = () =>{
     
 }
