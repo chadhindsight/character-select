@@ -36,7 +36,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        selectCharacter: character => dispatch(selectCharacter) 
+        selectCharacter: character => dispatch(selectCharacter()) 
 
     }
 }
