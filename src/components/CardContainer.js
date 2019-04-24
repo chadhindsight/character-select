@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import { connect } from 'react-redux'; 
 import { characters } from '../store/characters';
+import ModalCharacter from './ModalCharacter';
 
 class CardsContainer extends Component {
     constructor(props) {
@@ -21,6 +22,7 @@ class CardsContainer extends Component {
             <div>
                 <h1>Choose Your Fighter!</h1>
                 <ul>{this.renderList()}</ul>
+                <ModalCharacter />
             </div>
         )
     }

@@ -20,6 +20,9 @@ class ModalCharacter extends React.Component{
                 <Modal
                     isOpen={this.state.showModal}
                     contentLabel={Character}>
+                    <h3>{}</h3>
+                    <p>{}</p>
+                    <p>{}</p>
                 </Modal>
             </div>
         )
