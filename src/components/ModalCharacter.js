@@ -2,7 +2,7 @@ import React from 'react';
 import Modal from 'react-modal';
 import CharacterCard from './CharacerCard';
 
-// This should pop when a character frame is clicked  and display user's choice 
+// This should pop when a character frame is clicked  and display the user's choice 
 class ModalCharacter extends React.Component{
     constructor(props) {
         super(props);
